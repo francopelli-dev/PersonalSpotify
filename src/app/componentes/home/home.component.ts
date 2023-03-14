@@ -1,3 +1,4 @@
+import { SpotifyService } from './../../services/spotifyConnection/spotify-service.service';
 import { Component } from '@angular/core';
 
 @Component({
@@ -7,4 +8,11 @@ import { Component } from '@angular/core';
 })
 export class HomeComponent {
    list:number[] = [1,2,3,4,5]
+
+   constructor(private service:SpotifyService){
+
+   }
+   getToken(){
+    this.service.getToken();
+   }
 }
