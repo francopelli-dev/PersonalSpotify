@@ -1,0 +1,29 @@
+.contenedor {
+  background-color: var(--grey);
+  min-height: 300px;
+  max-width: 80%;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.box {
+  min-height: 200px;
+  width: 90%;
+  margin: 10px auto;
+  padding-left: 20px;
+
+  border: 5px solid white;
+}
+
+
+h2 {
+  color: var(--white);
+  margin: 10px;
+}
+
+h1 {
+  color: var(--white);
+  text-align: center;
+}
